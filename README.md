@@ -8,7 +8,7 @@
 **TWORZENIE OBRAZU**
 1.  docker build --ssh key=/home/ola/.ssh/id_ed25519 -t lab2.v1 -f Dockerfile .
 2.  docker images --- **wyświetla listę obrazów**
-3.  docker run -p 8080:8080 <IMAGE_ID> --- **uruchamia obraz z przekierowaniem portow**
+3.  docker run -p 8080:8080 <IMAGE_ID>
 
 **PRZESŁANIE DO DOCKERHUB**
 1. docker login --- **logowanie do dockerhub**
